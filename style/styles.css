@@ -1,0 +1,298 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier-home{
+    position: fixed;
+    width: 100%;
+
+    background-color: rgb(242, 242 , 242);
+    display: flex;
+     justify-content: space-between;
+     z-index: 1;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+}
+.content{
+    display: flex;
+    width: 60%;
+     justify-content:space-evenly;
+    align-items: center;
+}
+.btn{
+    background-color: #005eff; 
+    color:wheat; 
+    border-radius: 30px ;
+    border: none; 
+    width: 120px; 
+    padding:14px 10px; 
+    font-size: 10px;
+    transition: 1s;
+} 
+
+.navcontant{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    list-style: none;
+    color: wheat;
+}
+.h2{
+    width: 15%;
+    
+}
+.font{
+    font-size: 20px;
+}
+.div2{
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    background-color: #173364;
+
+}
+.bg{
+    
+background-image:url(../82fcd3_47a465bb9c6f4b52a0cc83f281806af8~mv2.webp);
+height: 115vh;
+width: 100%;
+background-repeat: no-repeat;
+background-size: 100% 100%; 
+display: flex;
+justify-content:center;
+align-items: flex-end;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+     height: 230px;
+     width: 850px;
+     text-align: center;
+}
+.p1{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.btnn{
+   height: 60px;
+   width: 170px;
+   color: #005eff;
+   font-size: 15px;
+   background-color: transparent;
+
+}
+.btnn:hover{
+    background-color: #0a2758;
+    color: white;
+    transition: 1s;
+
+}
+.p2{
+    font-size: 50px;
+    margin: 20px 20px;
+}
+#icon1 , #icon2{
+    color: #005eff; 
+    font-size: 30px;
+}
+#icon1:hover{
+cursor: pointer;
+
+}
+#icon2:hover{
+    color: black;
+   
+}
+.read{
+    width: 100px;
+}
+.read:hover{
+    color: blue;
+}
+.btn:hover{
+    background-color: #005eff95; 
+
+}
+.divaa{
+    justify-content: space-evenly;
+display: flex;
+margin-top: 150px;
+}
+.diva{
+    width: 350px;
+    text-align: center;
+}
+.divb{
+    margin: 30px 0;
+}
+.divhead{
+    font-size: 40px;
+    font-weight: 30px;
+}
+.par{
+    line-height: 25px;
+    
+}
+.btm{
+    width: 160px;
+    font-size: 17px;
+    height: 40px;
+    background-color: transparent;
+    margin: 60px 0;
+}
+.btm:hover{
+    background-color: #0a2758;
+    color: white;
+    transition: 1s;
+
+}
+.about{
+    background-image: url(../82fcd3_47a465bb9c6f4b52a0cc83f281806af8~mv2.webp);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.aboutuscontant{
+    /* background-color: #005eff; */
+    width: 50%;
+
+}
+.abouth1{
+    margin: 50px 0px 30px 0px;
+    font-size: 35px;
+}
+.aboutpar{
+    line-height: 20px;
+}
+
+.ch{
+    margin: 70px 0px 30px 0px;
+    font-size: 40px;
+}
+.parr{
+    line-height: 25px;
+}
+.aboutper{
+    line-height: 25px;
+    margin: 15px 0 15px 0px;
+}
+.aboutbut{
+    background-color: transparent;
+    height: 50px;
+    width: 140px;
+    font-size: 14px;
+    margin: 30px 0px 15px 0px;
+    border: 1px solid rgb(2, 2, 102);
+    font-weight: 900;
+     
+}
+.aboutbut:hover{
+    background-color: #005eff;
+    transition: 0.5s;
+    color: white;
+    border: none;
+}
+.form{
+
+    width: 70%;
+    margin: auto;
+padding: 50px 0
+
+}
+
+input{
+    height: 30px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(150, 132, 98);
+    color: wheat;
+    font-size: 16px;
+    
+}
+label{
+    color:white;
+    margin:10px 0;
+}
+input:hover{
+    border-color: rgb(231, 231, 204);
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+textarea:hover{
+    border-color: rgb(255, 255, 255);
+}
+
+
+.formbt{
+    width:200px;
+    height:60px
+}
+textarea{
+
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(150, 132, 98);  
+    color: wheat;
+    font-size: 16px;
+
+}
+.footer{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(12, 12, 71);
+}
+.footcontact{
+   
+    padding: 35px;
+    line-height: 25px;
+    font-size: 15px;
+}
+.footcontact > h1{
+    font-weight: 900;
+    font-size: 26px;
+    color: wheat;
+}
+
+.footcontact > p{
+    color:wheat;
+    font-size: 18px;
+    margin: 10px 0;
+    
+}
+
+
+@media screen and (max-width : 690px) {
+.contanier-home{
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    margin-left: 0;
+}
+.btn{
+    width: 140px; 
+}
+.content{
+    width: 100%;
+}
+}
